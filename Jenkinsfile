@@ -11,7 +11,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/USERNAME/REPOSITORY.git'
+                url: 'git@github.com:rajukushwaha36-glitch/Devops-FDP.git'
             }
         }
 
